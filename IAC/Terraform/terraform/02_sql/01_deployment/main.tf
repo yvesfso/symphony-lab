@@ -2,7 +2,6 @@
 # DEPLOY  a reources group, sql server, sql database and firewall rules - Uses Remote state
 # ------------------------------------------------------------------------------------------------------
 
-
 resource "random_string" "sqlserverlogin" {
   length  = 10
   special = false
