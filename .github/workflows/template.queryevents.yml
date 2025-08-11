@@ -31,7 +31,7 @@ jobs:
     outputs:
       events: ${{ steps.QueryEvents.outputs.events }}
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
       - uses: Azure/login@v2
         name: Run Azure Login
         with:
